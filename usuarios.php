@@ -1,9 +1,7 @@
-
 <?php
-
 	/* connect to the db */
-	$link = mysql_connect('mysql.hostinger.co','u530405213_root','admin123') or die('Cannot connect to the DB');
-	mysql_select_db('u530405213_letme',$link) or die('Cannot select the DB');
+	$link = mysql_connect('mysql.hostinger.co','u215513673_root','admin123') or die('Cannot connect to the DB');
+	mysql_select_db('u215513673_letme',$link) or die('Cannot select the DB');
 	header("Access-Control-Allow-Origin: *");
 	if(empty($_GET["id"])){
 		$query = "SELECT * from Usuario ";
